@@ -1,0 +1,20 @@
+{
+    "Parameters": [
+        {
+            "ParameterKey": "EnvironmentName",
+            "NoEcho": false,
+            "Description": "An environment name that will be prefixed to resource names"
+        },
+        {
+            "ParameterKey": "ImageId",
+            "NoEcho": false,
+            "Description": "The Ec2 image id"
+        },
+        {
+            "ParameterKey": "InstanceType",
+            "NoEcho": false,
+            "Description": "The Ec2 instance type"
+        }
+    ],
+    "Description": "Mostafa Wael 2022 This template deploys a VPC, with a pair of public and private subnets spread  across two Availabilty Zones. It deploys an Internet Gateway, with a default  route on the public subnets. It deploys a pair of NAT Gateways (one in each AZ),  and default routes for them in the private subnets.\n"
+}

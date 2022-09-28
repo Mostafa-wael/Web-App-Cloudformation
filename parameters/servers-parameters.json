@@ -1,0 +1,19 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "DemoWebApp"
+	},
+	{
+		"ParameterKey": "ImageId",
+		"ParameterValue": "ami-052efd3df9dad4825"
+	},
+	{
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t3.medium"
+	}
+	,
+	{
+		"ParameterKey": "WebAppLaunchConfigScript",
+		"ParameterValue": ""
+	}
+]

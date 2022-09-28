@@ -1,0 +1,40 @@
+{
+    "Parameters": [
+        {
+            "ParameterKey": "PrivateSubnet1CIDR",
+            "DefaultValue": "10.0.2.0/24",
+            "NoEcho": false,
+            "Description": "Please enter the IP range (CIDR notation) for the private subnet in the first Availability Zone"
+        },
+        {
+            "ParameterKey": "PublicSubnet2CIDR",
+            "DefaultValue": "10.0.1.0/24",
+            "NoEcho": false,
+            "Description": "Please enter the IP range (CIDR notation) for the public subnet in the second Availability Zone"
+        },
+        {
+            "ParameterKey": "VpcCIDR",
+            "DefaultValue": "10.0.0.0/16",
+            "NoEcho": false,
+            "Description": "Please enter the IP range (CIDR notation) for this VPC"
+        },
+        {
+            "ParameterKey": "EnvironmentName",
+            "NoEcho": false,
+            "Description": "An environment name that will be prefixed to resource names"
+        },
+        {
+            "ParameterKey": "PrivateSubnet2CIDR",
+            "DefaultValue": "10.0.3.0/24",
+            "NoEcho": false,
+            "Description": "Please enter the IP range (CIDR notation) for the private subnet in the second Availability Zone"
+        },
+        {
+            "ParameterKey": "PublicSubnet1CIDR",
+            "DefaultValue": "10.0.0.0/24",
+            "NoEcho": false,
+            "Description": "Please enter the IP range (CIDR notation) for the public subnet in the first Availability Zone"
+        }
+    ],
+    "Description": "Mostafa Wael 2022 This template deploys a VPC, with a pair of public and private subnets spread  across two Availabilty Zones. It deploys an Internet Gateway, with a default  route on the public subnets. It deploys a pair of NAT Gateways (one in each AZ),  and default routes for them in the private subnets.\n"
+}
