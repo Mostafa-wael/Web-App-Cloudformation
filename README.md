@@ -1,7 +1,9 @@
 # Infrastructure Diagram
 
 ![infrastructure](docs/diagram.png)
-You can access the website at [demo-webapp](http://serve-webap-4yk6643aaowh-1137078415.us-east-1.elb.amazonaws.com/).
+
+You can access the website at [demo-webapp](http://serve-webap-1qz9oyoodrm6z-1911925375.us-east-1.elb.amazonaws.com/).
+![image](https://user-images.githubusercontent.com/56788883/192730566-a26310e8-7f15-430c-8671-a871e2e4b8ea.png)
 
 ## Procedure Details
 1. Run the CloudFormation script to create the infrastructure: `./create-all.sh`
