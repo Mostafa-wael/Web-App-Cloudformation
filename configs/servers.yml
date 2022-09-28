@@ -69,7 +69,12 @@ Resources:
     Properties:
       UserData:
         Fn::Base64: 
-          Ref: WebAppLaunchConfigScript
+          Fn::Sub: |
+            #!/bin/bash
+            apt-get update -y
+            apt-get install apache2 -y
+            systemctl start apache2.service
+            echo "The Demo Web Server is Up & Running!" > /var/www/html/index.html 
       ImageId: 
         Ref: ImageId
       KeyName: udacity
